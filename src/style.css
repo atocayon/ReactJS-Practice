@@ -1,0 +1,41 @@
+.Card {
+    width: 350px;
+    display: block;
+    margin: auto;
+    border: 1px solid #808080;
+    box-shadow: 2px 2px 3px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Input {
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-left: 3px;
+    box-shadow: 1px 1px 1px #808080;
+    border: 1px solid #808080;
+}
+
+.Button {
+    display: block;
+    margin: auto;
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    background-color: #33cc00;
+    color: #FFFFFF;
+    box-shadow: 1px 1px 1px #808080;
+}
+
+.input-feedback {
+    color: red;
+    margin-top: .25rem;
+    margin-left: 5rem;
+}
+input.error {
+    border-color: red;
+}
